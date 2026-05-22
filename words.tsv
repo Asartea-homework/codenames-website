@@ -1,0 +1,55 @@
+Bias	A systematic skew in data or model behavior that leads to unfair outcomes for certain groups.	If an AI hiring tool favors men over women for tech jobs, who is responsible for fixing it? The developers, the company, or society?
+Fairness	The principle that models produce equitable outcomes across different individuals or groups.	Can an AI model ever be truly fair, or will it always reflect the biases of its developers and its training data?
+Accountability	The assignment of responsibility for the decisions and impacts of NLP systems.	If an AI model makes a harmful decision, who should be held responsible?
+Transparency	The degree to which data, model behavior, and decision processes are open and understandable.	If an AI model makes a decision that affects your life, should you have the right to know how it made that decision?
+Explainability	The ability to provide human-understandable reasons for a model’s outputs.	How much should we trust the decision of an AI model if we can't fully understand how it reaches that conclusion?
+Interpretability	The extent to which a model’s internal mechanisms can be directly understood by humans.	Is it acceptable for an AI model to be a "black box" if it works well, or should we always know how it works?
+Alignment	The process of ensuring model behavior conforms to human values and intended goals.	Whose values should ann AI model align with? The values of its developers? The values of its users? The values of society as a whole? What if these conflict with each other?
+Governance	The frameworks, policies, and processes guiding responsible AI development and deployment.	Should governments regulate AI models, or should developers be allowed to self-regulate? What are the risks of either approach
+Compliance	Adherence to legal, regulatory, and ethical standards.	If an AI model breaks a law, but its developers did not intend for this to happen, can they be held accountable? If not, who (if anybody) can?
+Trust	User confidence in a model’s reliability, transparency, and behavior.	What does it take for you to trust an AI model?
+Confidentiality	The restriction of data access to authorized entities only.	Should AI models in healthcare have access to sensitive patient data?
+Stewardship	The responsible management of data throughout its lifecycle.	Who should ultimately be held accountable for ensuring responsible data stewardship within an organization?
+Retention	Policies governing how long data is stored before deletion.	How long should companies be allowed to keep your data?
+Minimization	The practice of collecting only the data necessary for a specific purpose.	Does strict data minimization hinder the development of more accurate  systems?
+Purpose Limitation	The use of data strictly for the originally specified uses.	If a company uses your data for a different purpose than originally stated that benefits you, is that ethically right?
+Consent	User permission for collecting, processing, or using their data in NLP systems.	Is it ethical for companies to use your data if it is publicly available (e.g. via social media), even if you didn't explictly agree to its use?
+Privacy	The protection of personal or sensitive information from unauthorized access or exposure.	To what extent are you willing to trade privacy for convenience or personalized services?
+Provenance	The origin, history, and transformations of data.	Should companies be required to disclose where their training data comes from?
+Leakage	The unintended exposure of sensitive or training data during training or inference.	How can leakage affect perceived model performance and what misconceptions could this introduce?
+Data contamination	The inclusion of evaluation or benchmark data in training data, inflating performance estimates.	How does data contamination affect the credibility of benchmarks and reported performance?
+Harm	Negative impacts caused by model behavior, including discrimination, misinformation, or privacy violations.	How could an AI model potentially harm you personally?
+Safety	The implementation of mechanisms that prevent harmful or unintended model behavior.	Should AI companies be required to actively notify its users about the risks of using their model?
+Toxicity	The presence of offensive, abusive, or harmful language in text data or outputs.	Who decides what is considered toxic or not, and how does this differ per medium?
+Moderation	The filtering or control of content to enforce safety or policy constraints.	How can moderation be performed consistently, while avoiding possible individual biases of the moderators?
+Adversarial inputs	Inputs intentionally crafted to exploit model weaknesses or cause errors.	Is it realistic to expect AI models to be fully resistant to adversarial attacks, or should we instead focus on mitigation and response?
+Filtering	The removal of undesirable or harmful content from data or outputs.	Who should decide what is undesirable or harmful content?
+Security	The protection of systems and data from unauthorized access, attacks, or breaches.	How much security is “enough”?
+Surveillance	The large-scale monitoring of individuals through data collection and analysis.	Is surveillance ever right?
+Manipulation	The use of language models to influence user beliefs or behavior without informed consent.	Should an AI model manipulate someone if its in their best interest?
+Misuse	The unintended or inappropriate use of NLP systems.	How can we prevent misuse of AI models?
+Abuse	The deliberate use of NLP systems to cause harm or deceive.	Where should the line be drawn between misuse and deliberate abuse of AI systems?
+Generalization	The ability of a model to perform well on unseen data outside its training set.	What could cause an AI model to work perfectly in a lab but fail in the real world?
+Calibration	The alignment between predicted probabilities and actual outcomes.	How could the calibration of a model be improved?
+Uncertainty	The degree of confidence associated with a model’s predictions.	How certain do you think an AI model should be of an answer before providing it? It is good enough to provide any answer, even if it's very uncertain?
+Benchmark	A standardized dataset or metric used to compare model performance.	What is a good way to evaluate how well a model performs? Are current benchmarks (e.g. accuracy on different tasks) a good representation of how the world works?
+Evaluation	The measurement of model performance using technical and ethical metrics.	How can evaluation of a model influence its impact on the world?
+Hallucination	The generation of fluent but factually incorrect or unsupported content.	How can it be that these AI models produce content that is factually untrue? Consider how these models work under the hood.
+Red Teaming	The practice of probing models to identify risks, vulnerabilities, or failure modes.	Should all AI models be required to undergo an third party probe to check for security?
+Monitoring	The continuous observation of model behavior in deployed environments.	In what ways does the amount of monitoring impact a model's performance?
+Feedback	Information from users or systems used to improve model performance.	How can we ensure that user feedback is helpful and doesn't introduce new biases?
+Human in the Loop	A design approach where human oversight is integrated into automated decision-making.	Could you imagine a scenario in which no human in the loop is required? What would it look like?
+Tradeoffs	The balancing of competing objectives such as accuracy, fairness, and efficiency.	Should any of the aforementioned objectives take priority over others? Why or why not?
+Standardization	The establishment of common practices, formats, or benchmarks.	Should there be global standards for AI development, or should every country/region make its own rules?
+Interoperability	The ability of different systems to exchange and use data	Should AI models from different companies be forced to work together, even if it harms competition?
+Inference	The "doing" part of AI, where a trained model applies its learned knowledge to new data, producing outputs like predictions, interpretations, or generated responses	How can we ensure that the output of the AI accurately infers from its learned knowledge?
+Representation	The presence and portrayal of different demographic or social groups in data.	How would you want different social groups to be represented? Accurately relating to the proportions in the real world, or some ideal world? (e.g., men and women split 50/50 in every profession, or more true to real life?)
+Inclusivity	The practice of ensuring diverse groups are fairly considered in system design and outputs.	How do you think inclusion could and should be implemented in AI? Do you think all groups should be represented equally or does that bring their own issues?
+Accessibility	The design of systems to be usable by people with varying abilities and needs.	Should AI companies make their models accessible to everyone, even if that entails a lot of work for a small group?
+Profiling	The analysis of text data to infer attributes about individuals or groups.	What could be the danger of using a large amount of text about one group to make conclusions about an individual?
+Value Misalignment	A mismatch between model behavior and intended human values or goals.	What would be an example of value misalignment, and how could this issue be fixed?
+Mitigation	Actions taken to reduce identified risks or harms.	Who should decide what the risks and harms are, and what is “good”?
+Ownership	The rights and control over data, models, or generated outputs.	When you give a prompt to an AI model, who owns the rights to the answer it produces?
+Attribution	The identification and crediting of data sources or generated content origins.	How should AI companies respect the original authors when collecting data and training on it? Should they be allowed to use any data they want, or should there be rules and regulations?
+Misinformation	False or misleading information produced without intent to deceive.	How can an AI help in the spreading of misinformation?
+Disinformation	False information deliberately created to mislead.	Is it easy to create disinformation with LLMs? Try it yourself! Think of a creative (but fake) news headline, and have an LLM come up with a related article.

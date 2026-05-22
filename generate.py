@@ -27,7 +27,7 @@ def main():
         cards_html += card_html + "\n"
 
     final_html = index_html.replace("{{CARDS}}", cards_html)
-    Path("index.html").write_text(final_html, encoding="utf-8")
+    Path("build/index.html").write_text(final_html, encoding="utf-8")
 
 
 if __name__ == "__main__":

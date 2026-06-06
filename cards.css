@@ -1,0 +1,90 @@
+#cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    border-radius: 6px;
+    padding: 18px;
+
+    background: #e9e2d0;
+    border: 2px solid rgba(0, 0, 0, 0.08);
+
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.08);
+    display: grid;
+}
+
+/* Stack both states */
+.card>.full,
+.card>.initial {
+    grid-area: 1 / 1;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+
+
+}
+
+/* Hidden by default */
+.card>.full {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+
+
+}
+
+/* Visible by default */
+.card>.initial {
+    opacity: 1;
+    visibility: visible;
+
+
+}
+
+/* Flipped state */
+.card.flipped>.full {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+
+.card.flipped>.initial {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+.card>.initial {
+    opacity: 1;
+    visibility: visible;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.card-header {
+    margin-bottom: 15px;
+}
+
+.card-header h2 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.card-body {
+    flex-grow: 1;
+}
+
+.word-definition {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+.word-question {
+    font-size: 1em;
+    color: #555;
+}

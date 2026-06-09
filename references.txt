@@ -166,7 +166,8 @@ https://www.ibm.com/think/topics/ai-inference
 
 
 Representation:
-
+https://journals.sagepub.com/doi/full/10.1089/big.2016.0054
+https://data.europa.eu/apps/data-visualisation-guide/representing-people
 
 Inclusivity:
 https://aclanthology.org/2020.acl-main.560/
@@ -179,13 +180,13 @@ Profiling:
 https://www.nrc.nl/nieuws/2026/04/03/studenten-krijgen-compensatie-na-discriminerende-duo-controles-a4924685
 
 Value Misalignment:
-
+https://cdn.aaai.org/ocs/ws/ws0404/15216-68330-1-PB.pdf
 
 Mitigation:
-
+https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00041/43452/Data-Statements-for-Natural-Language-Processing
 
 Ownership:
-
+https://www.mdpi.com/2078-2489/12/11/465
 
 Attribution:
 https://link.springer.com/chapter/10.1007/978-3-031-14689-3_4

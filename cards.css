@@ -1,6 +1,6 @@
 #cards-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     gap: 20px;
     padding: 20px;
 }
@@ -77,14 +77,27 @@
 
 .card-body {
     flex-grow: 1;
-}
 
-.word-definition {
-    font-size: 1.1em;
-    margin-bottom: 10px;
-}
+    .word-definition {
+        font-size: 1.1em;
+        margin-bottom: 10px;
+    }
 
-.word-question {
-    font-size: 1em;
-    color: #555;
+    .word-question {
+        font-size: 1em;
+        color: #555;
+    }
+
+    h3 {
+        margin-top: 20px;
+        font-size: 1em;
+    }
+
+    ul {
+        padding-left: 20px;
+    }
+
+    li {
+        font-size: 0.9em;
+    }
 }

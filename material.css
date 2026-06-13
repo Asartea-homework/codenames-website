@@ -1,7 +1,12 @@
 #container {
+    h3 {
+        text-align: center;
+    }
+
     ul {
-        list-style: none;
-        padding: 0;
+        width: fit-content;
+        margin: 0 auto;
+        text-align: left;
 
         li {
             margin-bottom: 10px;
